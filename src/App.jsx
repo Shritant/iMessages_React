@@ -2,7 +2,7 @@ import Name from './Name.jsx'
 import './App.css'
 
 function App() {
-  const names = ["Shritan", "Ruhan", "Sid", "Nico", "Sina", "Bobby", "Joey", "Daquavis", "Adrian", "Cornelius", "Bartholomew", "Nathanial"]
+  const names = ["Shritan", "Ruhan", "Sid", "Nico", "Sina", "Bobby", "Joey"]
   const namesList = names.map((n) => <Name text={n}></Name>)
 
 

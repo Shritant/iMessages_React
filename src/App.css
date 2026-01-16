@@ -1,12 +1,19 @@
+
+@font-face {
+  font-family: 'SF';
+  src: url(../static/fonts/SF-Pro.ttf)
+}
+
 #body {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 35vw;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 15px;
   padding-left: 20px;
-  overflow-y:scroll;
+  overflow-y: scroll;
+  font-family: SF
 }
 
 #root {
@@ -22,16 +29,20 @@ html {
   height: 100%;
 }
 
-#contacts {
-  
-}
-
 .name-container {
   border: 0.01rem solid lightgray;
   border-left: none;
   border-right: none;
   border-bottom: none;
   padding: 20px;
+}
+
+#search-input {
+  height: 40px;
+  width: 450px;
+  border-radius: 20px;
+  font-family: SF;
+  border: 1px solid black;
 }
 
 
